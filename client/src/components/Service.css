@@ -1,0 +1,39 @@
+.service {
+    height: 24rem;
+    width: 16rem;
+    min-width: 16rem;
+    margin: 0 1rem;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-content {
+    height: 94%;
+    width: 90%;
+    background-color: rgb(0, 0 ,0, .72);
+    color: white;
+    padding: 1rem .5rem;
+}
+
+.service-content h3 {
+    font-weight: 700;
+}
+
+.service-content a {
+    margin-top: 1rem;
+    padding: .25rem .5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    background-color: white;
+}
+
+.service-content a:hover {
+    background-color: rgb(255, 255, 255, .64);
+}
+
+#services .service {
+    width: 100%;
+}

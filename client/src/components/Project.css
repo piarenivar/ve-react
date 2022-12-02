@@ -1,0 +1,50 @@
+.project {
+    height: fit-content;
+    width: 24rem;
+    min-width: 24rem;
+    margin: 0 1rem;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.project:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .1rem;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform .3s ease-out;
+}
+
+.project:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.project h3 {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.project img {
+    width: 100%;
+    filter: brightness(.72);
+    transition: all .3s ease-in-out;
+}
+
+.project:hover img {
+    filter: brightness(.88);
+    transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+    .project {
+        width: 92vw;
+    }
+}

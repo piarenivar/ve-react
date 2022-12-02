@@ -1,0 +1,91 @@
+#main {
+    padding-top: 8rem;
+    justify-content: space-between;
+}
+
+#main h1 {
+    font-size: 5rem;
+}
+
+#main h1 span {
+    font-weight: 500;
+}
+
+.main-top {
+    justify-content: space-between;
+}
+
+.main-links {
+    height: fit-content;
+    width: fit-content;
+    margin-top: auto;
+}
+
+.main-links a {
+    font-size: 1.5rem;
+    margin: 0 2rem 0 0;
+    padding: .5rem;
+    border-bottom: .1rem solid black;
+}
+
+.hero {
+    height: 28rem;
+    width: 72rem;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    margin-top: 5rem;
+    margin-left: auto;
+    position: relative;
+    transform: translateX(5rem);
+    background-image: url(../images/hero.avif);
+    background-size: cover;
+}
+
+
+.black-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .16;
+    transition: all .3s ease-in-out;
+}
+
+.hero h2,
+.about-image h2 {
+    margin: 0 0 2rem 2rem;
+    opacity: 0;
+    z-index: 1;
+}
+
+.hero:hover .black-bg,
+.about-image:hover .black-bg {
+    opacity: .4;
+}
+
+.hero:hover h2,
+.about-image:hover h2 {
+    opacity: 1;
+}
+
+@media (max-width: 1100px) {
+    .main-top {
+        flex-direction: column;
+    }
+
+    .main-links {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #main h1 {
+        font-size: 3rem;
+    }
+
+    .main-links a {
+        font-size: 1.23rem;
+    }
+}

@@ -1,0 +1,22 @@
+.skip {
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translate(0, -100%);
+    transition: all .25s ease-in-out;
+}
+
+.skip:hover {
+    text-decoration: underline;
+}
+
+.skip:focus {
+    outline: none;
+    text-decoration: underline;
+    transform: translateY(0);
+}

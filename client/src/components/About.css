@@ -1,0 +1,86 @@
+#about {
+    min-height: max-content;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+
+#about div {
+    height: 26rem;
+    width: 54%;
+}
+
+#about h2,
+#projects h2,
+#contact h2,
+#all-projects h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 5rem;
+}
+
+.about-image {
+    height: 26rem;
+    width: 36rem;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    margin-top: 5rem;
+    margin-left: auto;
+    position: relative;
+    transform: translateX(5rem);
+    background-image: url(../images/about.avif);
+    background-size: cover;
+}
+
+#about .black-bg {
+    width: 100%;
+}
+
+#about .about-image h2 {
+    font-size: 2rem;
+    text-transform: none;
+}
+
+@media (max-width: 1490px) {
+    #about p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1190px) {
+    #about div {
+        height: fit-content;
+        width: 100%;
+    }
+
+    #about h2,
+    #projects h2,
+    #contact h2,
+    #all-projects h2 {
+        font-size: 2rem;
+    }
+
+    .about-image {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #about h2,
+    #projects h2,
+    #contact h2,
+    #all-projects h2 {
+        margin-bottom: 1rem;
+    }
+
+    #about p {
+        margin-left: 3rem;
+    }
+}

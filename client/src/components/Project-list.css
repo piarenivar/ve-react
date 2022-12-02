@@ -1,0 +1,28 @@
+.project-list {
+    overflow-x: scroll;
+}
+
+.project-list::-webkit-scrollbar {
+    display: none;
+}
+
+.see-all {
+    height: 22rem;
+    width: 16rem;
+    min-width: 16rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.see-all i {
+    margin-left: .5rem;
+    transition: all .3s linear;
+}
+
+.see-all:hover {
+    background-color: rgb(0, 0, 0, .08);
+}
+
+.see-all:hover i {
+    margin-left: 1rem;
+}

@@ -1,0 +1,12 @@
+.hrh2 {
+    margin-right: 1rem;
+    width: 4rem;
+    border: none;
+    border-bottom: .25rem solid black;
+}
+
+@media (max-width: 576px) {
+    .hrh2 {
+        width: 2rem;
+    }
+}
