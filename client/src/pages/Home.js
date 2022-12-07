@@ -3,6 +3,7 @@ import './Home.css';
 import About from '../components/About';
 import Projectslider from '../components/Project-slider';
 import Contactinfo from '../components/Contact-info';
+import Form from '../components/Form';
 import Intro from '../components/Intro';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <About />
             <Projectslider />
             <Contactinfo />
+            <Form />
         </section>
     );
 }; 

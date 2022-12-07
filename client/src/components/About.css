@@ -12,7 +12,8 @@
 #about h2,
 #projects h2,
 #contact h2,
-#all-projects h2 {
+#all-projects h2,
+#form h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -63,7 +64,8 @@
     #about h2,
     #projects h2,
     #contact h2,
-    #all-projects h2 {
+    #all-projects h2,
+    #form h2 {
         font-size: 2rem;
     }
 
@@ -76,7 +78,8 @@
     #about h2,
     #projects h2,
     #contact h2,
-    #all-projects h2 {
+    #all-projects h2,
+    #form h2 {
         margin-bottom: 1rem;
     }
 

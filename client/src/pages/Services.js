@@ -2,9 +2,10 @@ import './Services.css';
 import Service from '../components/Service';
 import services from '../services-data';
 import Hrh2 from '../components/Hrh2';
+import Form from '../components/Form';
 
 function createService(service) {
-    return <Service img={service.img} title={service.title} text={service.text} />
+    return <Service key={service.id} img={service.img} title={service.title} text={service.text} />
 }
 
 export default function Services() {
@@ -15,6 +16,7 @@ export default function Services() {
             <div className='services flex'>
                 {services.map(createService)}
             </div>
+            <Form />
         </section>
     );
 }; 
